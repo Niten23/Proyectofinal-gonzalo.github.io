@@ -122,7 +122,7 @@ main {
 
 /*jumbotron*/
 .jumbotron {
-  background-image: url(/images/pexels-afta-putta-gunawan-683039.jpg);
+  background-image: url(../images/pexels-afta-putta-gunawan-683039.jpg);
   height: 300px;
   background-size: cover;
   background-position: center;
