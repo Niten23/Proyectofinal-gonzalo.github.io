@@ -365,4 +365,14 @@ div p {
 .row {
   display: flex;
   justify-content: center;
+}
+
+fieldset {
+  width: 360px;
+  background-color: #000000;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  color: white;
 }/*# sourceMappingURL=estilos.css.map */

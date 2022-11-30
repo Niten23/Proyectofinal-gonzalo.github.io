@@ -15,6 +15,8 @@ header {
   overflow-x: hidden;
   justify-content: space-between;
   width: auto;
+  height: -webkit-max-content;
+  height: -moz-max-content;
   height: max-content;
   background-color: rgb(0, 0, 0);
   padding: 5px 5%;
@@ -46,6 +48,7 @@ header .menu li a {
   text-decoration: none;
   font-size: 700;
 }
+
 header .menu li:hover {
   transform: scale(1.1);
   color: whitesmoke;
@@ -102,6 +105,7 @@ main {
   display: grid;
   justify-content: center;
 }
+
 .image > .frente {
   justify-content: center;
   align-self: center;
@@ -159,23 +163,28 @@ footer {
   padding: 20px;
   float: left;
 }
+
 footer i {
   letter-spacing: 20px;
   font-size: 40px;
   color: blueviolet;
   padding-left: 5px;
 }
+
 footer i:hover {
   text-shadow: 0 0 5px #fff;
 }
+
 footer p {
   text-align: center;
 }
+
 footer footer {
   margin-top: 10px;
   font-family: "Oswald", sans-serif;
   font-size: 20px;
 }
+
 footer footer parrafofooter {
   text-align: left;
   padding-left: 10px;
@@ -364,5 +373,15 @@ div p {
   display: flex;
   justify-content: center;
 }
+
+fieldset {
+  width: 360px;
+  background-color: #000000;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  color: white;
+} /*# sourceMappingURL=estilos.css.map */
 
 /*# sourceMappingURL=estilos.css.map */
